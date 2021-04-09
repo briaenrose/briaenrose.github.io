@@ -1,0 +1,196 @@
+* {
+  background: #e5e5e5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+p {
+  font-size: 14px;
+}
+
+.root {
+  width: 900px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.languages {
+  display: flex;
+  padding-inline: 44px;
+  align-items: center;
+}
+
+.translateText {
+  font-size: 12px;
+  padding-inline: 18px;
+}
+
+.down {
+  position: absolute;
+  margin-left: 68px;
+  border: solid rgba(0, 0, 0, 0.705);
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.circulo {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #6366f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 0px;
+}
+
+.hamburger {
+  width: 27px;
+  height: 15px;
+  position: absolute;
+  padding-inline: 7px;
+  background: none;
+}
+
+.imgtexture {
+  position: relative;
+  justify-content: center;
+  width: 135px;
+  height: 135px;
+}
+
+.profilepicture {
+  position: relative;
+  width: 140px;
+  height: 145px;
+  border: 4px solid rgba(99, 102, 241, 0.8);
+  border-radius: 30px;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+.descriptiongrettings {
+  width: 240px;
+  padding: 20px;
+}
+
+.highlightlane {
+  background-color: rgba(99, 102, 241, 0.3);
+  height: 13px;
+  width: 170px;
+  border-radius: 18px;
+  border: none;
+}
+
+.lanedescription {
+  height: 13px;
+  width: 230px;
+  margin-top: -50px;
+}
+
+.arrowscrolldown {
+  display: flex;
+}
+.scroll {
+  font-size: 12px;
+  position: absolute;
+  padding-inline: 20px;
+}
+
+.arrowscrolldown {
+  display: inline;
+  background-color: none;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.title {
+  display: inline;
+}
+
+.sidelane {
+  margin: 13px 40px;
+}
+
+.aboutmedescription {
+  width: 60%;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+.lane {
+  position: absolute;
+  display: inline-block;
+  border: 2px solid #6366f1;
+  height: 0px;
+  width: 98px;
+}
+
+.button {
+  background-color: #6366f1;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 25px;
+  padding-inline: 30px;
+  letter-spacing: 1px;
+}
+
+.resumebutton {
+  margin-top: -40px;
+}
+
+.aboutmetext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titlecenter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.projectsblock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 470px;
+  padding: unset;
+}
+
+.projectcontent {
+  box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 15%);
+  width: 27%;
+  height: 155px;
+  border-radius: 10px;
+  border: 20px solid #e5e5e5;
+}
+
+h3 {
+  margin-top: 0px;
+}
