@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+a {
+  color: black;
+}
+
 p {
   font-size: 14px;
 }
@@ -25,6 +29,10 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 .languages {
@@ -78,8 +86,8 @@ nav {
 
 .profilepicture {
   position: relative;
-  width: 140px;
-  height: 145px;
+  width: 205px;
+  height: 215px;
   border: 4px solid rgba(99, 102, 241, 0.8);
   border-radius: 30px;
   margin-top: -100px;
@@ -87,7 +95,7 @@ nav {
 }
 
 .descriptiongrettings {
-  width: 240px;
+  width: 300px;
   padding: 20px;
 }
 
@@ -100,9 +108,8 @@ nav {
 }
 
 .lanedescription {
-  height: 13px;
-  width: 230px;
-  margin-top: -50px;
+  width: 300px;
+  margin-top: -55px;
 }
 
 .arrowscrolldown {
@@ -111,6 +118,7 @@ nav {
 .scroll {
   font-size: 12px;
   position: absolute;
+  margin-top: 2em;
   padding-inline: 20px;
 }
 
@@ -132,7 +140,7 @@ section {
 }
 
 .aboutmedescription {
-  width: 60%;
+  width: 65%;
   letter-spacing: 0.1em;
   font-size: 15px;
   line-height: 40px;
@@ -142,9 +150,11 @@ section {
 .lane {
   position: absolute;
   display: inline-block;
+  background-color: #6366f1;
   border: 2px solid #6366f1;
   height: 0px;
-  width: 98px;
+  width: 80px;
+  margin-top: 15px;
 }
 
 .button {
@@ -179,8 +189,9 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 470px;
+
   padding: unset;
+  position: relative;
 }
 
 .projectcontent {
@@ -191,6 +202,121 @@ section {
   border: 20px solid #e5e5e5;
 }
 
-h3 {
-  margin-top: 0px;
+.projectdetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentbottom {
+  margin-top: 40px;
+}
+.javascript {
+  box-shadow: 0px 4px 6px 1px rgb(0 0 0 / 15%);
+  border-radius: 25px;
+  padding: 5px 12px;
+  font-style: unset;
+  align-items: center;
+}
+
+.projectlane {
+  margin-top: 5px;
+  width: 80px;
+}
+
+.circletextureone {
+  position: absolute;
+  margin: -24px -60px;
+}
+
+.circletexturetwo {
+  float: left;
+  margin: -125px 810px;
+}
+
+.seemorebutton {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogscontent {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: inherit;
+}
+
+.article {
+  width: 390px;
+  margin-bottom: 25px;
+}
+
+.articlelink {
+  font-weight: bold;
+}
+
+.morearticlebutton {
+  display: inline-block;
+  margin-left: 650px;
+}
+
+.skillsdescription {
+  width: 600px;
+  display: block;
+  margin: 35px auto;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.icons {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.icons li {
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+footer h3 {
+  color: rgb(84, 84, 84);
+  font-size: 2em;
+  letter-spacing: 0.01em;
+}
+
+.email {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 53px;
+  letter-spacing: 0.01em;
+  color: rgb(38, 38, 38);
+}
+
+.lanegetintouch {
+  position: absolute;
+  width: 355px;
+  margin-top: -20px;
+}
+
+.socialmedia {
+  float: right;
+  padding: 0px;
+  margin-top: -12px;
+}
+.socialmedia li {
+  display: inline-block;
 }
